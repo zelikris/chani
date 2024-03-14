@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
 <link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
-
 <link rel="preload" href="fonts\mr-dafoe-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>        
-
 
 <!--Note: we used a flexbox on the image container instead of grid because this makes it more repsonsive to changes in the contact box. We set it up so if you add another .cs-link inside the contact-group div, the box grows in height to accommadate the new link and the image above it adjusts its height to be smaller proportional to how much taller the contact-group div grew from the new link. We needed it to be "flexible" so we used flexbox. -->
 
@@ -32,37 +30,91 @@
                     <img loading="lazy" decoding="async" src="images\man-facing-right.jpg" alt="hair salon" width="281" height="387">
                 </picture>
                 <div class="cs-contact-group">
-                    <a class="cs-link" href="mailto:Info@health&wellness.com">
+                    <a class="cs-link" href="https://maps.app.goo.gl/Hpj5UxNFKk7p94EH8" target="_blank">
                         <picture class="cs-wrapper">
                             <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-hair.svg" alt="icon" width="24" height="24">
                         </picture>
                         <div class="cs-info">
-                            <span class="cs-header">Send A Message</span>
-                            <span class="cs-link-content">Info@hairstyle.com</span>
+                            <span class="cs-header">Visit Us At</span>
+                            <span class="cs-link-content">4300 Buford Dr #2D, Buford, GA 30518</span>
                         </div>
                     </a>
-                    <a class="cs-link" href="">
+                    <a class="cs-link">
                         <picture class="cs-wrapper">
                             <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-hair.svg" alt="icon" width="24" height="24">
                         </picture>
                         <div class="cs-info">
-                            <span class="cs-header">Visit Us At</span>
-                            <span class="cs-link-content">123 Fake St, Highland, IN</span>
+                            <span class="cs-header">Contact Us</span>
+                            <span class="cs-link-content">(678)-765-0185</span>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
         <div class="cs-content">
-            <span class="cs-topper">Hair Salon Services</span>
-            <h2 class="cs-title">Life Is More Beautiful When You Meet The Right Hairdresser</h2>
+            <span class="cs-topper">Buford Mall Barber Shop</span>
+            <h2 class="cs-title">Life Is More Beautiful When You Meet The Right Barber</h2>
             <p class="cs-text">
-                The Hair salon Stitch pack is designed specifically for a hairdressers, salons, and beauty centers, with a modern high end feel to match the expectations for design in this industry. These Stitches are great for anything and everything hair and beauty but can also be repurposed for anything high end or luxury.
+                Chani is not just a stylists; she is craftswoman who understands the importance of a great haircut and the confidence it instills. With over 28 years of experience, Chani combines the best of the old-school approach with the latest trends and techniques. Whether you’re preparing for a special occasion or just in need of a touch-up, Buford Mall Barber Shop is your destination for impeccable service and unmatched style.
             </p>
-            <a href="" class="cs-button-solid" aria-label="learn more about us">Learn More</a>
+            <!-- <a href="" class="cs-button-solid" aria-label="learn more about us">Learn More</a> -->
         </div>
     </div>
     <!--Zen Leaf Group-->
     <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hair-tools.png" alt="hair tools" width="445" height="310">
 </section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-484">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-title-group">
+                <span class="cs-topper">Reviews</span>
+                <h2 class="cs-title">What People Say</h2>
+            </div>
+            <!-- <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p> -->
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/quote-left-green.svg" decoding="async" alt="quote icon" width="40" height="46">
+                <p class="cs-item-text">
+                    Channi is a great person who makes you feel at home and gives a great haircut. She is very good at what she does. Much better barber shop once she took over. I drive 30 mins to have my haircut here.
+                </p>
+                <div class="cs-flex-group">
+                    <!-- <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture> -->
+                    <span class="cs-name">
+                        Matt D.
+                        <span class="cs-job">Google Maps Review</span>
+                    </span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/quote-left-green.svg" decoding="async" alt="quote icon" width="40" height="46">
+                <p class="cs-item-text">
+                    I’ve just moved to Georgia & received my first haircut at Chani’s Barber Shop in the Buford Mall … The cut I received was excellent as were the additional services provided that made my experience one of the finest I have ever received. I can easily recommend the professionalism, and overall comfort that my first experience impressed on me … I’m confident that my experience will be repeated for anyone wanting to visit this first rate barber shop.
+                </p>
+                <div class="cs-flex-group">
+                    <!-- <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile3.png" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture> -->
+                    <span class="cs-name">
+                        Phillip Peoples
+                        <span class="cs-job">Google Maps Review</span>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <a href="https://www.google.com/maps/place/Buford+Mall+Barber+Shop/@34.0941303,-84.0117815,17z/data=!4m16!1m7!3m6!1s0x88f594072cebbc31:0xe5a4278352147f86!2sBuford+Mall+Barber+Shop!8m2!3d34.0941303!4d-84.0117815!16s%2Fg%2F1tj3ly7x!3m7!1s0x88f594072cebbc31:0xe5a4278352147f86!8m2!3d34.0941303!4d-84.0117815!9m1!1b1!16s%2Fg%2F1tj3ly7x?entry=ttu" target="_blank" class="cs-button-solid">Read More Reviews</a>
+</section>
+                                
                                 
