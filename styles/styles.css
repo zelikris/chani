@@ -513,7 +513,7 @@ body,
 html {
     /* reset margin and padding so there's no gap between the nav and the screen edges */
     margin: 0;
-       padding: 0;
+    padding: 0;
 }
 
 /* Mobile - 1023px */
